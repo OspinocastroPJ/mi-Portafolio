@@ -1,0 +1,17 @@
+{
+    "profile": {
+        "rol":"Developer frond-end",
+        "description": " Front-end Software Developer Multi-Platform Proficiency Passionate about new technologies and especially the ecosystem of css and JavaScript and integrated systems. Experience in the tools and more avant-garde development procedures. Capable of self-management effective in independent projects. Good collaboration skills within a productive team. "
+    },
+
+    "experience" :{
+        "first-job-title ": "developer frond-end",
+        "first-job-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+        "second-job-title": "developer frond-end",
+        "second-job-dates": "may-2022 - Current ",
+        "second-job-description": "Football is a beautiful sport where it gets approves your efforts, your intellectual capaidad and individual, Where your brain begins to think quickly and your corrazon comisa agitate incredibly, It also makes you take your decisions and your way of thinking is approved.  ",
+        "second-job-experience":"Experience",
+        "second-job-Hobbies": "Football"
+    }
+
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Portafolio</title>
+  </head>
+  <body class="dark">
+    <header class="herder">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+          <p id="toggle-text" class="toggle-theme_text">Modo Oscuro</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__items" data-lenguage="es">
+          <img src="assets/icons/incono.svg" alt="es" class="flags__img">
+        </div>
+        <div class="flags__items" data-lenguage="en">
+          <img src="assets/icons/ingles.svg" alt="en" class="flags__img">
+        </div>
+      </div>
+      <div id="toggle-color" class="color">
+        <div data-color="hsl(214, 84%, 56%)" class="color__items color__items--blue"></div>
+        <div data-color="hsl(150, 84%, 56%)" class="color__items color__items--green"></div>
+        <div data-color="hsl(276, 84%, 56%)" class="color__items color__items--purple"></div>
+        <div data-color="hsl(46,  84%,  56%)" class="color__items color__items--orange"></div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="column column--left">
+
+        <article class="card card--profile">
+          <div class="card__img-container">
+            <img src="/assets/images/imagen1.jpg" alt="">
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Pablo Jose</h2>
+            <p class="card__subtitle" data-seection="profile" data-value="rol">Front End Developer</p>
+          </div>
+          <div class="card__body">
+            <div class="card__linck">
+              <i class="fas fa-envelope icon "></i>
+              <a  href="Email: Pablojoseoapino@gmail.com">
+                Pablojoseoapino@gmail.com
+              </a>
+            </div>
+            <div class="card__linck">
+            <i class="fas fa-phone-alt icon "></i>
+              <a href="tel: 3013625838">
+                +57 3013625838
+              </a>
+            </div>
+            <p class="card__text" data-seection="profile" data-value="description">
+              Desarrollador de software Front-end. Dominio de varias plataformas,
+              <br>Apasionado en Nuevas tecnologias y en especial del ecosistema de css y JavaScript
+              <br> y sistemas integrados. Experiencia en las herramientas y
+              <br>procedimientos de desarrollo más vanguardistas. Capaz de autogestión
+             <br> eficaz en proyectos independientes. Buenas habilidades de colaboración
+             <br> dentro de un equipo productivo. 
+            </p>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title" data-seection="experience" data-value="second-job-experience">Experiencia</h2>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-seection="experience" data-value="second-job-dates">Mayo 2022 - Actual</p>
+              <h3 class="experience__Job" data-seection="experience" data-value="second-job-title">Front-end Developer</h3>
+              <p class="experience__descricion" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Assumenda, facilis placeat quia sint, dolor iusto debitis eos ullam commodi aspernatur nulla 
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/imagen.jpg" alt="Mi pasatiempo">
+          </div>
+          <h3 class="hobbies__title" data-seection="experience" data-value="second-job-Hobbies">Futbol</h3>
+          <p class="card__text" data-seection="experience" data-value="second-job-description">El Futbol es un  deporte hermoso don ahi se pone aprueba tus fuersas, tu capasidad inteletual
+            y individual, Donde tu cerebro comiensa a pensar de forma rapida y tu corrazon comisa agitarse de forma increible,
+            Tambien te pone a tomar tus desiciones y tu forma de pensar se pone a aprueba.
+          </p>
+        </article>
+      </section>
+      <section class="column column--rigth">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <small>Años de Experiencia</small>
+          <div class="skille__header">
+            <span class="skill_start-level">0</span>
+            <span class="skill_start-level">1</span>
+          </div>
+          <div class="skills">
+            <div class="skills__items">
+            <p class="skills__tech">HTNL</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__items">
+            <p class="skills__tech">CSS</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__items">
+            <p class="skills__tech">JavaScript</p>
+            <div class="skills__bar skills__bar--90"></div>
+          </div>
+        </div>
+      </article>
+      <section class="column column--rigth">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <div class="skills">
+            <div class="skills__items">
+            <p class="skills__tech">Java</p>
+            <div class="skills__bar skills__bar--10"></div>
+          </div>
+          <div class="skills__items">
+            <p class="skills__tech">Pyhton</p>
+            <div class="skills__bar skills__bar--20"></div>
+          </div>
+          <div class="skills__items">
+            <p class="skills__tech">C#</p>
+            <div class="skills__bar skills__bar--20"></div>
+          </div>
+        </div>
+      </article>
+      </section>
+      <section class="column column--rigth">
+        <article class="card">
+          <h2 class="card__title">Frameworks</h2>
+          <div class="skills">
+            <div class="skills__items">
+            <p class="skills__tech">AngularJS</p>
+            <div class="skills__bar skills__bar--10"></div>
+          </div>
+          <div class="skills__items">
+            <p class="skills__tech">VueJS</p>
+            <div class="skills__bar skills__bar--10"></div>
+          </div>
+          <div class="skills__items">
+            <p class="skills__tech">ReactJS</p>
+            <div class="skills__bar skills__bar--10"></div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <article class="card card--project">
+      <div class="card__image--container">
+        <img src="assets/images/project.jpg" alt="Página de destino" class="card__image">
+      </div>
+      <div class="project">
+        <div class="project__tags">
+          <span class="project__tag">#Html</span>
+          <span class="project__tag">#Css</span>
+          <span class="project__tag">#Javascript</span>
+        </div>
+        <h2 class="card__title">Pagina de destino</h2>
+        <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        <br> Modi non quia necessitatibus deleniti obcaecati animi minus dolorum perspiciatis 
+          inventore magnam tenetur quaerat a harum placeat qui ipsam, sit facilis numquam.</p>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            <br> Modi non quia necessitatibus deleniti obcaecati animi minus dolorum perspiciatis 
+              inventore magnam tenetur quaerat a harum placeat qui ipsam, sit facilis numquam.</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Done</a>
+            <a href="#" class="button button--ghost">Codigo</a>
+          </div>
+      </div>
+    </article>
+    <article class="card card--project">
+      <div class="card__image--container">
+        <img src="assets/images/project.jpg" alt="Página de destino" class="card__image">
+      </div>
+      <div class="project">
+        <div class="project__tags">
+          <span class="project__tag">#Html</span>
+          <span class="project__tag">#Css</span>
+          <span class="project__tag">#Javascript</span>
+        </div>
+        <h2 class="card__title">Pagina de destino</h2>
+        <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        <br> Modi non quia necessitatibus deleniti obcaecati animi minus dolorum perspiciatis 
+          inventore magnam tenetur quaerat a harum placeat qui ipsam, sit facilis numquam.</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Done</a>
+            <a href="#" class="button button--ghost">Codigo</a>
+          </div>
+      </div>
+    </article>
+    </section>
+    </main>
+    <script src="js/scripts.js"></script>
+
+  </body>
+</html>

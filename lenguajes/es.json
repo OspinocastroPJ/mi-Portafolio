@@ -1,0 +1,19 @@
+
+{
+    "profile": {
+        "rol":"Desarrolador frond-end",
+        "description": " Desarrollador de software Front-end Dominio de varias plataformas Apasionado en Nuevas tecnologias y en especial del ecosistema de css y JavaScript y sistemas integrados. Experiencia en las herramientas y procedimientos de desarrollo más vanguardistas. Capaz de autogestión eficaz en proyectos independientes. Buenas habilidades de colaboracióndentro de un equipo productivo."
+    },
+
+    "experience" :{
+        "first-job-title ": "Desarrolador frond-end",
+        "first-job-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+        "second-job-title": "Desarrolador frond-end",
+        "second-job-dates":  "mayo-2022  Actual",
+        "second-job-description": "El Futbol es un  deporte hermoso don ahi se pone aprueba tus fuersas, tu capasidad inteletual y individual, Donde tu cerebro comiensa a pensar de forma rapida y tu corrazon comisa agitarse de forma increible, Tambien te pone a tomar tus desiciones y tu forma de pensar se pone a aprueba. ",
+        "second-job-experience":"Experiencia",
+        "second-job-Hobbies": "Futbol"
+    }
+
+
+}
